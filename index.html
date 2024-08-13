@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>weather_app</title>
+</head>
+<body>
+   <div class="maindiv d-flex justify-content-center align-items-center w-100 vh-100">
+    <img src="images/project-bg.jpg" class="projectpj">
+        <div class="maindiv p-4 position-relative z-3 text-light h-75 w-50 d-flex justify-content-between align-items-center flex-column">
+            <h4 class="text-warning countre_name"></h4>
+            <h4 class="text-warning time"></h4>
+            <input type="text"  placeholder="Please Enter City Name"
+            class="text-primary rounded border-0 p-2 ps-4 fw-bold input">
+            <button class="btn btn-outline-info text-light">Show</button>
+            <div class="d-flex justify-content-evenly align-items-center">
+                <img src="" alt="" class="smallimg" width="20%">
+                <h1 class="fw-bold fs-1 weather"></h1>
+            </div>
+            <div
+            class="weather-degree d-flex justify-content-center align-items-start"
+          >
+            <h1 class="temprature"></h1>
+          </div>
+          <div class="additional-information d-flex justify-content-evenly h-25 align-items-center flex-column w-100">
+            <h4 class="text-warning">Additional Information</h4>
+            <div
+            class="info d-flex justify-content-evenly align-items-center w-100"
+          >
+            <div
+              class="wind-speed d-flex justify-content-center align-items-center flex-column"
+            >
+              <h6 class="text-warning fw-bold">Wind Speed</h6>
+              <h6 class="fw-bold wind-speed-"></h6>
+            </div>
+            <div
+              class="humidity d-flex justify-content-center align-items-center flex-column"
+            >
+              <h6 class="text-warning fw-bold">Humidity</h6>
+              <h6 class="fw-bold humidity- "></h6>
+            </div>
+            <div
+              class="pressure d-flex justify-content-center align-items-center flex-column"
+            >
+              <h6 class="text-warning fw-bold">pressure</h6>
+              <span class="fw-bold pressure-"></span>
+            </div>
+          </div>
+          </div>
+        </div>
+   </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
